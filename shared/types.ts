@@ -62,6 +62,6 @@ export interface QueueSummary {
   estimated_wait_minutes: number | null;
   working_barbers_count: number;
   is_online_queue_open: boolean;
-  salon_status: 'open' | 'closed' | 'online_closed';
+  salon_status: 'open' | 'closed' | 'online_closed' | 'salon_closed';
   barbers: Barber[];
 }

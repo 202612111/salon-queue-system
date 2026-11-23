@@ -150,7 +150,7 @@ export class QueueService {
     }
 
     const queueStatus = this.isQueueOpen();
-    let salonStatus: 'open' | 'closed' | 'online_closed' = 'open';
+    let salonStatus: QueueSummary['salon_status'] = 'open';
     if (!queueStatus.isOpen) {
       salonStatus = queueStatus.reason || 'online_closed';
     }
