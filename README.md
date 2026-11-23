@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Salon Queue Management System
 
 **Live demo:** Add your deployed URL here  
@@ -80,3 +81,6 @@ The application has no artificial barriers or paywalls for student assessment. A
 ## Team / author
 
 Add your name and required academic details here.
+=======
+# salon-queue-system
+>>>>>>> d59f79d77e9af994b4fa22b615837b7bce173d7e
