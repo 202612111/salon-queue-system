@@ -1,8 +1,8 @@
 <<<<<<< HEAD
 # Salon Queue Management System
 
-**Live demo:** Add your deployed URL here  
-**Hosted on:** Add your hosting provider(s) here
+**Live demo:** https://salon-queue-system-3psq-a6xag01ee-abc-f01c.vercel.app/
+**Hosted on:** Vercel
 
 ## About
 
@@ -56,31 +56,3 @@ The application has no artificial barriers or paywalls for student assessment. A
 - **Screen 6 — Waiting Area TV Display:** `/display`
 - **Screen 7 — Owner Settings:** `/admin`
 
-## Deployment guide
-
-### Option A: Render (Single Service with Persistent Disk)
-1. Push this repository to GitHub or GitLab.
-2. Log into [Render](https://render.com) and click **New > Blueprint**.
-3. Select your repository. Render automatically reads `render.yaml`.
-4. The service will build (`npm install && npm run build`) and start on port 10000.
-5. Persistent disk (`/var/data`) stores `salon.db` across redeployments and restarts.
-
-### Option B: Railway (One-Click or Docker)
-1. Connect repository on [Railway](https://railway.app).
-2. Set Build Command to `npm run build` and Start Command to `npm start`.
-3. Add a Persistent Volume mounted at `/app/data` and set environment variable `DATA_DIR=/app/data`.
-4. Deploy service and copy the public `.up.railway.app` URL.
-
-## Project documentation
-
-- `AGENTS.md`
-- `docs/01-brief.md`
-- `docs/02-screens.md`
-- `docs/03-flows-rules.md`
-
-## Team / author
-
-Add your name and required academic details here.
-=======
-# salon-queue-system
->>>>>>> d59f79d77e9af994b4fa22b615837b7bce173d7e
